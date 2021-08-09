@@ -1,0 +1,175 @@
+:root
+    {--maincolor:#FDD7D7;}
+
+*   
+    {margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+a
+    {text-decoration: none;}
+
+ul
+    {list-style-type: none;}
+
+dt
+    {font-weight: bold;}
+
+body
+    {font-family: 'Nanum Gothic';
+    color: #333;
+    font-size: 1em;
+    background: var(--maincolor);}
+
+/*헤드섹션*/
+
+#header
+    {background-image: url(images/main.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 600px;
+    margin: 0 auto;
+    color: #fff;}
+
+.text_box
+    {margin: 0 auto;
+    padding-top: 125px;}
+
+.text_box >h2
+    {text-align: center;
+    font-size: 15px;
+    line-height: 1.5em;}
+    
+.merry
+    {display: flex;
+    justify-content:space-evenly;
+    margin-top: 24px;}
+
+.merry h2
+    {font-size: 24px;}
+
+.small
+    {font-size: 10px;
+    text-align: center;
+    margin-top: 5px;}
+
+/*인바이트섹션*/
+
+#invite_phone
+    {background: #FFECEC;
+    border-radius: 40px;
+    padding: 20px;
+    margin: 10px;
+    margin-top: 23px;}
+
+#invite_phone > h2
+    {text-align: center;
+    margin-top: 23px;
+    font-family: 'Hi Melody';
+    font-size: 25px;
+    margin-bottom: 10px;}
+
+#invite_phone > p
+    {font-family: 'Hi Melody';
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.3em;
+    margin-bottom: 32px;}
+
+.plus
+    {text-align: center;
+    padding-top: 10px;
+    padding-bottom: 40px;}
+
+.phone
+    {text-align: center;
+    font-size: 15px;}
+
+.phone p
+    {margin-bottom: 20px;
+    margin-top: 20px;
+    line-height: 2.5em;}
+
+.phone img
+    {width: 30px;}
+
+/*갤러리 섹션*/
+
+#gallery
+    {margin-top: 33px;}
+
+#gallery h2
+    {font-size: 25px;
+    text-align: center;
+    margin-bottom: 23px;}
+
+#gallery figure
+    {width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: 2px solid rgb(145, 145, 145);
+    box-shadow: 3px 3px 5px 2px rgba(128, 128, 128, 0.61);}
+
+#gallery figure > img
+    {width: 100%;}
+
+.galleryList
+    {display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;}
+
+.galleryList li
+    {width: 30%;   
+}
+
+.galleryList li img
+    {width: 100%;
+    height: 10vh;}
+
+
+
+/*인포메이션 섹터*/
+
+#infomation
+    {margin-top: 52px;}
+
+#infomation h2
+    {text-align: center;
+    margin-top: 20px;
+    margin-bottom: 23px;}
+
+.downform
+    {margin-top: 32px;}
+
+.navigation
+    {margin-top: 20px;}
+
+.navigation ul
+    {display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;}
+
+.navigation dt,dd
+
+    {text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;}
+
+    .navigation dl
+    {margin-bottom: 30px;}
+
+footer
+    {padding-top: 10px;
+    background: #867070;
+    color: white;
+    text-align: center;
+    line-height: 2.0em;}
+
+footer a 
+    {color: white;
+    text-decoration: underline;}
+
+footer a:active
+    {color: red;}
+
+
